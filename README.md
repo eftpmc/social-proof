@@ -1,34 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Frontend Mentor - Social proof section solution
 
-## Getting Started
+This is a solution to the [Social proof section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-First, run the development server:
+## Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+### The challenge
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Users should be able to:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- View the optimal layout for the section depending on their device's screen size
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+### Screenshot
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+![](./screenshot.jpg)
 
-## Learn More
+### Links
 
-To learn more about Next.js, take a look at the following resources:
+- Solution URL: https://github.com/eftpmc/social-proof
+- Live Site URL: 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## My process
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Built with
 
-## Deploy on Vercel
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- [React](https://reactjs.org/) - JS library
+- [Next.js](https://nextjs.org/) - React framework
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### What I learned
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+During this challenge, I learned and worked with grids and flexboxes. I worked with these displays and learned how to make websites optimized for phones as well. Once the size of the screen reaches a certain width, it switches all the text and elements on the page making it optimal for phone users. I also learned how to make offsets and how to create visual interest on a page. 
