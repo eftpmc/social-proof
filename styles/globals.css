@@ -1,16 +1,155 @@
 html,
 body {
-  padding: 0;
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Spartan";
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+@font-face {
+  font-family: "Spartan";
+  src: url(/LeagueSpartan-VariableFont_wght.ttf);
 }
 
-* {
-  box-sizing: border-box;
+#grid{
+  padding: 5% 7.5% 5% 7.5%;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  grid-gap: 25px;
+}
+
+#text{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  max-width: 500px;
+  margin: 0px 50px 0px 50px;
+}
+
+#title{
+  color: hsl(300, 43%, 22%);
+}
+
+#para{
+  line-height: 25px;
+  color: hsl(0,0%,50%);
+}
+
+.review{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  background-color: hsl(300, 24%, 93%);
+  padding: 20px 65px 20px 65px;
+  margin: 25px;
+  line-height: 25px;
+  display: flex;
+  max-width: 400px;
+  text-align: left;
+  border-radius: 5px;
+}
+
+#left{
+  position: relative;
+  right: 50px;
+}
+#right{
+  position: relative;
+  left: 50px;
+}
+
+.stars{
+  padding-right: 20px;
+  flex-shrink: 0;
+}
+.stars img{
+  padding: 0px 5px 0px 5px;
+}
+
+h1{
+  font-size: 62px;
+}
+
+p{
+  font-size: 20px;
+}
+
+h4{
+  color: hsl(300, 43%, 22%);
+  margin: auto;
+}
+
+#comments{
+  padding: 2.5%;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-column: span 2;
+  display: flex;
+  justify-content: center;
+}
+
+#colton{
+  position: relative;
+  bottom: 25px;
+}
+
+#anne{
+  position: relative;
+  top: 25px;
+}
+
+.comment{
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 10px;
+  padding: 25px;
+  max-width: 350px;
+}
+
+.boxpads{
+  padding: 25px;
+}
+
+.user{
+  display: flex;
+  max-width: 200px;
+}
+
+.pic{
+  margin: auto;
+  max-width: 35px;
+  height: 100%;
+  border-radius: 50%;
+}
+.name{
+  color: white;
+  line-height: 20px;
+  font-weight: 100;
+}
+.role{
+  color: hsl(333, 80%, 67%);
+}
+.reply{
+  color: white;
+}
+
+@media(max-width:1175px){
+  #grid{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column
+  }
+  .review{
+    text-align: center;
+    display: block;
+  }
+  #left{
+    position: relative;
+    right: 0px;
+  }
+  #right{
+    position: relative;
+    left: 0px;
+  }
+  #comments{
+    display: block;
+  }
 }
