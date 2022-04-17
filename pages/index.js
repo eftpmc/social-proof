@@ -19,31 +19,31 @@ export default function Home() {
           <div id="reviews">
             <div id="left" className='review'>
               <div className='stars'>
-              <img src="/icon-star.svg"></img>
-              <img src="/icon-star.svg"></img>
-              <img src="/icon-star.svg"></img>
-              <img src="/icon-star.svg"></img>
-              <img src="/icon-star.svg"></img>
+              <img alt="Stars" src="/icon-star.svg"></img>
+              <img alt="Stars" src="/icon-star.svg"></img>
+              <img alt="Stars" src="/icon-star.svg"></img>
+              <img alt="Stars" src="/icon-star.svg"></img>
+              <img alt="Stars" src="/icon-star.svg"></img>
               </div>
               <h4>Rated 5 Stars in Reviews</h4>
             </div>
             <div className='review'>
               <div className='stars'>
-              <img src="/icon-star.svg"></img>
-              <img src="/icon-star.svg"></img>
-              <img src="/icon-star.svg"></img>
-              <img src="/icon-star.svg"></img>
-              <img src="/icon-star.svg"></img>
+              <img alt="Stars" src="/icon-star.svg"></img>
+              <img alt="Stars" src="/icon-star.svg"></img>
+              <img alt="Stars" src="/icon-star.svg"></img>
+              <img alt="Stars" src="/icon-star.svg"></img>
+              <img alt="Stars" src="/icon-star.svg"></img>
               </div>
               <h4>Rated 5 Stars in Report Guru</h4>
             </div>
             <div id="right" className='review'>
               <div className='stars'>
-              <img src="/icon-star.svg"></img>
-              <img src="/icon-star.svg"></img>
-              <img src="/icon-star.svg"></img>
-              <img src="/icon-star.svg"></img>
-              <img src="/icon-star.svg"></img>
+              <img alt="Stars" src="/icon-star.svg"></img>
+              <img alt="Stars" src="/icon-star.svg"></img>
+              <img alt="Stars" src="/icon-star.svg"></img>
+              <img alt="Stars" src="/icon-star.svg"></img>
+              <img alt="Stars" src="/icon-star.svg"></img>
               </div>
               <h4>Rated 5 Stars in BestTech</h4>
             </div>
@@ -52,7 +52,7 @@ export default function Home() {
             <div className='boxpads'>
             <div id="colton" className='comment'>
               <div className='user'>
-                <img className="pic" src="image-colton.jpg"></img>
+                <img alt="Person" className="pic" src="image-colton.jpg"></img>
                 <h3 className='name'>Colton Smith<div className='role'>Verified Buyer</div></h3>
               </div>
               <p className='reply'>
@@ -63,7 +63,7 @@ export default function Home() {
             <div className='boxpads'>
             <div id="irene" className='comment'>
               <div className='user'>
-                <img className="pic" src="image-irene.jpg"></img>
+                <img alt="Person" className="pic" src="image-irene.jpg"></img>
                 <h3 className='name'>Irene Roberts<div className='role'>Verified Buyer</div></h3>
               </div>
               <p className='reply'>
@@ -74,7 +74,7 @@ export default function Home() {
             <div className='boxpads'>
             <div id="anne" className='comment'>
               <div className='user'>
-                <img className="pic" src="image-anne.jpg"></img>
+                <img alt="Person" className="pic" src="image-anne.jpg"></img>
                 <h3 className='name'>Anne Wallace<div className='role'>Verified Buyer</div></h3>
               </div>
               <p className='reply'>
