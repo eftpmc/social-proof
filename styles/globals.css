@@ -58,7 +58,7 @@ body {
 
 .stars{
   padding-right: 20px;
-  flex-shrink: 0;
+  white-space: nowrap;
 }
 .stars img{
   padding: 0px 5px 0px 5px;
@@ -115,7 +115,7 @@ h4{
 .pic{
   margin: auto;
   max-width: 35px;
-  height: 100%;
+  height: auto;
   border-radius: 50%;
 }
 .name{
