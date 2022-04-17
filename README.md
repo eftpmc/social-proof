@@ -17,7 +17,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://github.com/eftpmc/social-proof
-- Live Site URL: 
+- Live Site URL: https://social-proof-eftpmc.vercel.app/
 
 ## My process
 
